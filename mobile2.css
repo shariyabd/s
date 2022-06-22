@@ -1,0 +1,239 @@
+/*/*/*/*/*/*/*/*.personal-responsive-icon{
+	width: 20%;
+	height: 100%;
+	background: transparent;
+	float: right;
+	text-align: center;
+	display: none;
+	
+}
+.personal-responsive-icon i{
+		font-size: 30px;
+		
+}
+.personal-responsive-item{
+	width: 100%;
+	float: right;
+	margin-top: -17px;
+	display: none;
+}
+.personal-responsive-item ul li{
+	list-style: none;
+	text-transform: uppercase;
+	text-align: left;
+	background: whitesmoke;
+	font-size: 15px;
+	line-height: 50px;
+	padding-left: 15px;
+	border-bottom: 1px solid gray;
+	margin-left: -30px;
+	
+}
+.personal-responsive-item ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+*/
+
+/* 
+@media screen and (max-width: 360px){
+	.personal-responsive-icon {
+		display: block;
+	}
+	.Personal-menu-item li{
+		display: none;
+	}
+	.personal-responsive-item{
+		display: block;
+	}
+	.Personal-hero-container{
+		width: 300px!important;
+		height: auto;
+	}
+	.Personal-row{
+		width: 300px!important;
+	}
+	.Personal-row div font{
+		padding-left: -20px;
+		font-size: 40px;
+		padding-top: -50px;
+	}
+	.Personal-row div p{
+		padding: 10px 40px;
+	}
+
+	.personal-about-container{
+		height: auto;
+		padding: 50px 0px;
+	}
+	.personal-about-container h2{
+		padding-bottom: 7px;
+		text-align: center;
+	}
+	.Personal-about-row div div h4{
+		padding-top: 0px;
+		text-align: center;
+	}
+	.Personal-about-row div div p{
+		text-align: center;
+	}
+	.Personal-about-row div  div h3{
+		text-align: center;
+	}
+	.Personal-about-row div div button{
+		margin-left: 70px;
+	}
+	.Personal-about-row div div img{
+		width: 200px;
+		height: 200px;
+		margin-left: 10%;
+	}
+	.personal-service-container{
+		height: auto;
+	}
+	.Personal-service-row{
+
+		padding-bottom: 50px;
+	}
+	.personal-service-container h2{
+		font-size: 30px;
+	}
+	.Personal-service-row{
+	padding: 30px 50px 30px 50px;
+}
+	.Personal-service-row div div{
+		margin-top: 20px;
+		height: 220px;
+	}
+	.Personal-service-row div div i{
+		padding-left: 110px;
+	}
+	.Personal-service-row div div h5{
+		padding-bottom: 5px;
+	}
+	.Personal-service-row div div p{
+		padding-bottom: 15px;
+	}
+	.personal-team-container{
+		height: auto;
+		
+	}
+	.Personal-team-row{
+		padding: 40px 30px 50px 30px;
+
+	}
+	.Personal-team-row h1{
+		font-size: 35px;
+		padding: 40px 0px;
+	}
+	.Personal-team-row div {
+		width: 80%;
+		margin-top: 20px;
+		margin-left: 10%;
+
+	}
+	.skill-container{
+		height: auto;
+	}
+	.skill-row{
+		padding: 70px 10px;
+	}
+	.sk-container .box{
+		padding: 40px 10px;
+		margin: 40px 50px;
+		margin-left: 70px;
+	}
+	.my-project-container{
+		height: auto;
+	}
+	.my-project-row{
+	padding: 50px 30px 50px;
+	
+	}
+	.my-project-row div div{
+		margin-left: 4%!important;
+		height: 500px;
+	}
+	.my-project-row div div a{
+		padding-left: 350px;
+	}
+	.testimonial-container{
+		height: auto;
+	}
+	.testimonial-row{
+		padding: 40px 30px;
+	}
+	.testimonial-row h1{
+		font-size: 40px;
+	}
+	.testimonial-row div div img{
+		margin: 0px 70px;
+	}
+	.testimonial-row div{
+		margin-top: 10px;
+	}
+	.testimonial-row div div a i{
+		margin-left: -3px;
+		font-size: 25px;
+	}
+	.personal-contact-container{
+		height: auto;
+	}
+	.Personal-contact-row{
+	padding: 10px 30px 40px 30px;	
+	}
+	.Personal-contact-row div h1{
+		font-size: 40px;
+	}
+	.Personal-contact-row div p{
+		padding-bottom: 5px;
+	}
+	.Personal-contact-row div .icon{
+		padding-bottom: 10px;
+		padding-left: 70px;
+	}
+	.Personal-contact-row div div div{
+		padding-top: 2px;
+	}
+	.Personal-contact-row div div div div{
+		width: 50%;
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+	.Personal-contact-row div .icon{
+		margin-left: -40px;
+	}
+
+	.Personal-contact-row div div div div h6{
+	font-size: 20px;
+	padding: 25px 5px;
+	}
+	.Personal-contact-row form{
+		margin: -5px 40px;
+	}
+	.Personal-contact-row .field2{
+		width: 90%;
+		height: 50px;
+	}
+	.footer-container{
+		height: auto;
+	}
+	.footer-row{
+		padding-top: 45px;
+		padding-bottom: 40px;
+	}
+	.footer-row h1{
+		padding-bottom: 7px;
+	}
+	.footer-row div li{
+		line-height: 40px;
+	}
+	.footer-row i{
+	margin-top: 10px;
+	font-size: 25px;
+	margin-left: 5px;
+	}
+}*/*/*/*/*/* */

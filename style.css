@@ -1,0 +1,696 @@
+
+	
+
+/*start css*/
+.Personal-menu-container{
+	width: 100%;
+	height: 70px;
+	background: white;
+	position: fixed;
+	z-index: 100;
+	
+}
+.name-logo h2{
+	width: 30%;
+	font-family: Informal Roman;
+	font-size: 40px;
+	padding: 10px 10px 20px 20px;
+	float: left;
+	color: orange;
+	font-weight: 600;
+}
+.Personal-menu-item{
+	width: 70%!important;
+	height: 100%;
+	float: left;
+	
+}
+.Personal-menu-item ul li{
+	width: 100px;
+	line-height: 70px;
+	list-style: none;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+}
+.Personal-menu-item ul li:hover{
+	background: dodgerblue;
+	color: white;
+	cursor: pointer;
+}
+.Personal-menu-item ul li:hover a{
+	color: white;
+}
+.Personal-menu-item ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-family: century gothik;
+}
+/*end css*/
+
+
+/*start hero section*/
+
+.Personal-hero-container{
+	width: 100%;
+	height: 100vh!important;
+	background: url(image/pc.webp);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.Personal-row{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(43, 41, 41, .7);
+	text-align: center;
+	padding: 150px 0px;
+	
+}
+.Personal-row div font {
+	color: white;
+	font-family: Colonna MT;
+	font-style: italic;
+	font-size: 60px;
+}
+.Personal-row div h5{
+	color: rgb(252, 242, 242);
+	font-size: 25px;
+	font-weight: 600;
+}
+.Personal-row div p{
+	color: white;
+	font-size: 17px;
+	padding-top: 30px;
+}
+.Personal-row div button{
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	border-radius: 20px;
+	font-family: century gothik;
+	border: none;
+	margin-top: 40px;
+}
+.Personal-row div button:hover{
+	background: dodgerblue;
+	color: ghostwhite;
+	transform: scale(1.2);
+	transition: 1s;
+}
+/*end hero section*/
+
+/*start about css*/
+
+
+.personal-about-container{
+	width: 100%;
+	height: 100vh;
+	background: rgba(213, 224, 223,.4);
+	padding: 50px 0px;
+}
+.Personal-about-row h2{
+	text-align: center;
+	padding-bottom: 50px;
+	font-size: 50px;
+	font-family: Colonna MT;
+	font-weight: bold;
+}
+.Personal-about-row div div h4{
+	text-align: left;
+	padding: 30px 20px 20px 30px;
+	font-family: century gothik;
+	font-style: italic;
+	font-size: 33px;
+}
+.Personal-about-row div div p{
+	text-align: left;
+	padding: 10px 50px 10px 30px;
+	font-family: century gothik;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+.Personal-about-row div  div h3{
+	font-size: 35px;
+	font-family: Kunstler Script;
+	text-decoration: underline;
+	color: black;
+	padding-left: 25px;
+
+}
+.Personal-about-row div div button{
+	width: 230px;
+	height: 50px;
+	font-size: 20px;
+	border-radius: 10px;
+	font-family: century gothik;
+	border: none;
+	margin: 50px 30px;
+	background: lightgray;
+	font-weight: bold;
+}
+.Personal-about-row div div button:hover{
+	background: blue;
+	color: white;
+	transform: scale(1.2);
+	transition: 1s;
+}
+.Personal-about-row div div button i{
+	font-size: 25px;
+	color: blue;
+}
+.Personal-about-row div div button:hover i{
+	background: blue;
+	color: white;
+	transform: scale(1.2);
+	transition: 1s;
+}
+.Personal-about-row div div img{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin-left: 40px;
+	outline: 8px double black;
+}
+
+/*end about css*/
+
+
+/*Start service css*/
+
+.personal-service-container{
+	width: 100%;
+	height: 100vh;
+	
+}
+.personal-service-container h2{
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	font-family: Colonna MT;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.Personal-service-row{
+	height: 100%;
+	background: ghostwhite;
+	padding: 50px 100px 50px 100px;
+}
+.Personal-service-row div div{
+	margin-top: 5px;
+	height: 200px;
+	box-shadow: 0px 0px 10px gray;
+
+}
+.Personal-service-row div div:hover{
+	background: dodgerblue;
+	color: white;
+}
+.Personal-service-row div div:hover p{
+	color: ghostwhite;
+}
+.Personal-service-row div div i{
+	font-size: 30px;
+	padding: 20px 160px 5px 160px;
+	color: blue;
+}
+.Personal-service-row div div:hover i{
+	color: white;
+}
+.Personal-service-row div div i:hover{
+	transform: scale(1.3);
+	color: gray;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.Personal-service-row div div h5{
+	text-align: center;
+	padding: 10px 0px;
+	font-family: century gothik;
+	font-weight: 600;
+}
+.Personal-service-row div div p{
+	text-align: center;
+	padding: 0px 15px;
+	font-family: century gothik;
+	color: gray;
+	font-weight: bold;
+
+}
+
+
+
+
+/*End service css*/
+
+
+
+/*start team */
+
+
+.personal-team-container
+{
+	width: 100%;
+	height: 100vh;
+	color: ghostwhite;
+}
+.Personal-team-row{
+	padding: 50px 30px 50px 60px!important;
+
+}
+.Personal-team-row h1{
+	text-align: center;
+	font-family: Colonna MT;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 5px;
+}
+.Personal-team-row p{
+	font-family: century gothik;
+	font-size: 17px;
+	color: gray;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 30px;
+
+}
+.Personal-team-row div div {
+	width: 250px!important;
+	height: 400px!important;
+	
+	border-radius: 10%;
+	box-shadow: 0px 0px 10px gray;
+	position: relative;
+	margin: 1px;
+	overflow: hidden;
+	float: left;
+	
+}
+.Personal-team-row div div .team-front{
+	/*width: 100%;*/
+	height: 350px;
+	background:  url(image/team1.jpg);
+	border-radius: 10%;
+	background-size: cover;
+	position: absolute;
+	z-index: 5;
+}
+.Personal-team-row div div:hover .team-front {
+	transform: translateX(100%);
+	transition: 2s;
+}
+ .Personal-team-row div div .team-back{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10%;
+	position: absolute;
+	background: rgb(255, 247, 247);
+}
+ .Personal-team-row div div .team-back img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px gray;
+	margin-bottom: 10px;
+	/*margin: 5px 10px 5px -10px;*/
+}
+ .Personal-team-row div div .team-back h2{
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	font-family: century gothik;
+	text-align: center;
+	padding-top: 10px;
+}
+.Personal-team-row div div .team-back p {
+	font-size: 15px;
+	font-weight: 600;
+	color: gray;
+	text-align: center;
+	padding: 10px 20px 5px 0px;
+}
+.Personal-team-row div div i{
+	width: 30px;
+	height: 30px;
+	padding-top: 5px;
+	font-size: 20px;
+	border-radius: 50%;
+	margin: 1%;
+	text-align: center;
+}
+.Personal-team-row div div i:hover{
+	
+	background: black;
+	color: white;
+	transition: 1s;
+	transform: scale(1.1);
+}
+.Personal-team-row div div a{
+	text-decoration: none;
+	text-align: center;
+	background: white;
+	color: black;
+}
+.Personal-team-row div div .team2{
+	background: url(image/team2.jpg);
+	background-size: cover;
+}
+
+.Personal-team-row div div .team3{
+	background: url(image/team3.jpg);
+	background-size: cover;
+}
+.Personal-team-row div div .team4{
+	background: url(image/sr0.jpg);
+	background-size: cover;
+}
+
+/*End team*/
+
+
+
+
+/*start skill*/
+.skill-container{
+	width: 100%;
+	height: 100vh;
+}
+.skill-row{
+	height: 100%;
+	background: rgb(234, 227, 227);
+	padding: 100px 100px;
+}
+
+
+.sk-container .box{
+	width: 220px;
+	height: 220px;
+	float: left;
+	margin: 40px 50px;
+	border-radius: 50%;
+	border: 20px solid ghostwhite;
+	margin-left: 100px;
+	padding: 50px 50px;
+
+}
+.sk-container .box .chart{
+	text-align: center;
+	font-size: 30px;
+}
+.sk-container .box h2{
+	text-align: center;
+}
+.skill-row h1{
+	text-align: center;
+	font-family: Colonna MT;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 0px;
+}
+.skill-row p{
+	padding-top: -100px;
+	text-align: center;
+	font-family: century gothik;
+	font-size: 20px;
+	font-weight: 600;
+	color: dimgray;
+}
+
+/*End Skill
+
+/*Start project */
+.my-project-container{
+	width: 90%;
+	height: 155vh;
+	background: rgb(239, 234, 234);
+}
+.my-project-row{
+	padding: 50px 60px 50px 60px;
+	
+}
+.my-project-row h1{
+	text-align: center;
+	font-family: Colonna MT;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 10px;
+}
+.my-project-row div div{
+	width: 96%;
+	height: 400px;
+	background-size: cover;
+	margin-top: 20px;
+	border: 2px solid black;
+	overflow: scroll;
+}
+.my-project-row div div img{
+	background-repeat: no-repeat;
+	width: 90%;
+	height: auto;
+	margin-left: 18px;
+}
+.my-project-row div div a{
+	text-decoration: none;
+	color: gray;
+	font-weight: 600;
+	padding-left: 210px;
+}
+
+/*end project*/
+
+/*start testimonial*/
+
+
+
+
+.testimonial-container{
+	width: 100%;
+	height: 85vh;
+	background: ghostwhite;
+}
+.testimonial-row{
+	padding: 50px 70px 50px 70px;
+}
+.testimonial-row h1{
+	text-align: center;
+	font-family: Colonna MT;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 20px;	
+}
+.testimonial-row div div{
+	width: 100%;
+	height: 350px;
+	margin-left: 1%;
+	box-shadow: 0px 0px 10px gray;
+	padding: 30px 20px;
+}
+.testimonial-row div div:hover{
+	border: 2px solid black;
+	border-radius: 20px;
+}
+.testimonial-row div div img{
+	height: 110px;
+	width: 110px;
+	border-radius: 10%;
+	margin: 0px 60px;
+}
+.testimonial-row div div p{
+	text-align: center;
+	padding-top: 20px;
+	font-family: century gothik;
+	font-size: 17px;
+}
+.testimonial-row div div a{
+	font-size: 25px;
+	margin-left: 40px;
+	color: black;
+}
+.testimonial-row div div a:hover i{
+	background: blue;
+	color: white;
+	transform: scale(1.2);
+	transition: 2s;
+	border-radius: 50%;
+	
+}
+/*end testimonial*/
+
+
+
+
+
+/*start form*/
+
+.personal-contact-container{
+	width: 100%;
+	height: 90vh;
+	background: url(image/vector2.jpg);
+	transform: rotateY(180deg);
+	
+}
+.Personal-contact-row{
+	height: 100%;
+	padding: 50px 50px;
+	background: rgba(71, 64, 64, .7);
+	transform: rotateY(180deg);
+
+}
+.Personal-contact-row div{
+	padding-top: 10px;
+}
+.Personal-contact-row div h1{
+	text-align: center;
+	font-family: Colonna MT;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	padding-bottom: 20px;	
+}
+.Personal-contact-row div h3{
+color: white;
+text-align: center;
+padding-top: 20px;
+}
+.Personal-contact-row div .icon{
+	padding-left: 270px;
+	padding-top: 60px;
+}
+.Personal-contact-row div .icon i{
+	font-size: 35px;
+	color: white;
+	padding-left: 10px;	
+}
+.Personal-contact-row div div i:hover{
+	color: blue;
+	transform: scale(1.5);
+	transition: 1s;
+}
+.Personal-contact-row div p{
+	text-align: center;
+	font-family: Century gothik;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	padding-bottom: 10px;
+
+}
+
+.Personal-contact-row form{
+	margin: -20px 80px;
+
+}
+
+.Personal-contact-row .field2{
+	width: 90%;
+	height: 50px;
+	border: none;
+	color: white;
+	border-bottom: 2px solid gray;
+	font-size: 17px;
+	background: rgb(229, 222, 222);
+	
+}
+.Personal-contact-row div div form p{
+	color: white;
+}
+
+.Personal-contact-row textarea {
+	width: 90%;
+	height: 100px;
+	background: rgb(229, 222, 222);
+	margin-top: -30px;
+}
+
+
+/*end form*/
+
+/*Footer section start*/
+
+.footer-container{
+	width: 100%;
+	height: 70vh;
+	background: url(image/footer.jpg);
+}
+.footer-row{
+	height: 100%;
+	background: rgba(224, 222, 222, .7);
+	padding: 50px 60px 20px 60px;
+
+}
+.footer-row h1{
+	text-align: left;
+	font-family: Colonna MT;
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 20px;	
+}
+.footer-row div{
+	border-bottom: 2px solid black;
+}
+.footer-row div li{
+	list-style: none;
+	line-height: 45px;
+	font-size: 20px;
+	font-family: century gothik;
+
+}
+.footer-row div li:hover{
+	transform: translatex(10px);
+	transition: 1s;
+}
+.footer-row div h3{
+	font-size: 20px;
+	font-family: century gothik;
+	color: black;
+}
+
+.footer-row div li a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	font-weight: normal;
+}
+.footer-row i{
+	margin-top: 20px;
+	font-size: 25px;
+	margin-left: 5px;
+}
+.footer-row i:hover{
+	color: white;
+	transform: scale(1.4);
+	transition: 1s;
+
+}
+.footer-row font{
+	text-align: center;
+	color: black;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*End footer section*/
